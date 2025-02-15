@@ -1,8 +1,9 @@
 # CalgaryHacks-Project
-Calgaryhacks2025
-Idea: 
+CalgaryHacks2025
 
-Analyse spending habits 
+Project by: Parth, Meagan, Sophia, and Toby
+
+Idea: Analyse spending habits 
 Based on spending habits send recommendations on how money can be better utilized 
 Uses publicly available spending data
 Takes real time spending data from some sort of API?? 
@@ -12,4 +13,3 @@ Some sort of backend?
 Pipeline connecting it to the frontend
 Frontend page 
 Presentation 
-
