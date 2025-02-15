@@ -13,3 +13,9 @@ Some sort of backend?
 Pipeline connecting it to the frontend
 Frontend page 
 Presentation 
+
+Flask:Backend
+React: Frontend 
+Machine Learning, Model Training 
+Connect both?
+
