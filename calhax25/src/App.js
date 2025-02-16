@@ -1,6 +1,9 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./Navbar"
 import React, { useState } from "react";
+import "./index.css";
+
+
 
 function App() {
   return (
@@ -21,7 +24,9 @@ function App() {
 function Home() {
   return( 
     <div className="Title">
-      <h2>Home Page</h2>
+      <div style={{ fontSize: "40px", textAlign: "center", paddingTop: "100px", fontFamily: "Roboto", fontWeight: 'bold',}}>
+        Home Page 
+      </div>
       <div className="SubTitle">
         <p>Hello</p>
       </div>
