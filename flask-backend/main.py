@@ -1,9 +1,15 @@
 from flask import Flask
 app = Flask(__name__)
 
-@app.route("/")
+import sqlite3
+
+@app.route("/CalgaryHacks2025")
 def home():
-    return "Hello, Does it change?"
+    file_name = input("Enter the name of the file you want to open: ")
+
+
+@app.route("/CalgaryHacks2025/insert")
+
 
 if __name__ == "__main__":
     app.run(host= 'localhost', debug=True)
