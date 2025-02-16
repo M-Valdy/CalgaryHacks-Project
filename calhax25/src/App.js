@@ -84,7 +84,7 @@ function Data() {
     <div>
       <h2>Calculate your budget</h2>
       <form onSubmit={handleSubmit}>
-        <div style={{ marginBottom: '10px' }}>
+        <div>
           <label>
             Put in your income: 
             <input
@@ -96,7 +96,7 @@ function Data() {
           </label>
         </div>
         
-        <div style={{ marginBottom: '10px' }}>
+        <div>
           <label>
             Put in your loan amount: 
             <input
@@ -108,7 +108,7 @@ function Data() {
           </label>
         </div>
 
-        <div style={{ marginBottom: '10px' }}>
+        <div>
           <label>
             Loan length (years): 
             <input
@@ -120,7 +120,7 @@ function Data() {
           </label>
         </div>
 
-        <div style={{ marginBottom: '10px' }}>
+        <div>
           <label>
             Interest rate (monthly): 
             <input
