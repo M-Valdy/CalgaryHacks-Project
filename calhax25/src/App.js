@@ -37,8 +37,11 @@ function Data() {
     <div>
       <h2>Data Page</h2>
       
+      <p>
+        Test out the 50/30/20 rule
+      </p>
       <label>
-        Your income:<input name = "My Input"/>
+        Your income: <input name = "My Input"/>
       </label>
     </div>
   )
