@@ -4,9 +4,13 @@ export default function Navbar() {
         Site Name
     </a>
     <ul>
-        <li>
-            <a href="/home">Home</a>            
+        <li className="active">
+            <a href="/home">Home</a>    
+            </li>
+            <li className="active">        
             <a href="/about">About Us</a>
+            </li>
+            <li className="active">
             <a href="/data">Data</a>
             </li>
     </ul>
