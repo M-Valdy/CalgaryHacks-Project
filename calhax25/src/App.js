@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./Navbar"
 
 function App() {
-  return (
     <Router>
       <div>
         <h1>Welcome to My Website</h1>  {/* h1 element added */}
@@ -14,7 +13,6 @@ function App() {
         </Routes>
         </div>
     </Router>
-  );
 }
 
 function Home() {
