@@ -8,7 +8,7 @@ function App() {
   switch (window.location.pathname) {
   case "/":
     break
-    Component = App
+    Component = Home
   case "/data":
       break
     Component = Data 
@@ -16,8 +16,10 @@ function App() {
       break
     Component = About
   return (
-  <><Navbar /> 
-  <Component /></>
+  <>
+  <Navbar /> 
+  <Component />
+  </>
   )
 }
 }
