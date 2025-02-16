@@ -6,9 +6,13 @@ export default function Navbar() {
     <ul>
         <li>
             <a href="/home">Home</a>
+            </li>
+         <li>
             <a href="/about">About Us</a>
+            </li>
+        <li>
             <a href="/data">Data</a>
-        </li>
+            </li>
     </ul>
 </nav>
 ) 
