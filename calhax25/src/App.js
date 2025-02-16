@@ -20,7 +20,7 @@ function App() {
 function Home() {
   return( 
     <div>
-      <h2 style={{colour: 'red'}}>Home Page</h2>
+      <h2>Home Page</h2>
       <div>
         <p>Hello</p>
       </div>
@@ -34,6 +34,7 @@ function About() {
 
 function Data() {
   return <h2>Data Page</h2>;
+  
 }
 
 export default App;
