@@ -8,8 +8,7 @@ def home():
     file_name = input("Enter the name of the file you want to open: ")
 
 
-@app.route("/CalgaryHacks2025/insert")
-
+@
 
 if __name__ == "__main__":
     app.run(host= 'localhost', debug=True)
