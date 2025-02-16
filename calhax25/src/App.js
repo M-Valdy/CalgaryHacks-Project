@@ -33,8 +33,15 @@ function About() {
 }
 
 function Data() {
-  return <h2>Data Page</h2>;
-  
+  return (
+    <div>
+      <h2>Data Page</h2>
+      
+      <label>
+        Your income:<input name = "My Input"/>
+      </label>
+    </div>
+  )
 }
 
 export default App;
