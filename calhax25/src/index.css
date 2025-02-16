@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #007ea7; /* Background for the rest of the body */
 }
 
 code {
@@ -13,25 +15,36 @@ code {
 }
 
 * {
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
-body{
-  margin:0
-}
-
+/* Navbar background */
 .nav {
-  background-color: #003459;
-  color:white;
+  background-color: white; /* White background for navbar */
+  color: black;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  gap: 2rem;
+  gap: 6rem;
   padding: 0rem;
+  position: sticky;  /* Keeps navbar on top */
+  top: 0;
+  width: 100%; /* Ensures navbar takes full width */
+  z-index: 1;
 }
 
-.site-title{
+.site-title {
   font-size: 3rem;
+}
+
+h1 {
+  background-color: white;
+  padding: 2rem;
+}
+
+/* Body content starting below navbar should have its own background */
+body > .white-section {
+  background-color: white; /* White section starts from top of page */
 }
 
 .nav ul {
@@ -56,6 +69,86 @@ body{
 }
 
 .nav li:hover {
+  background-color: 
+  #021b31;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: 
+  #021b31
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.nav {
+  background-color: 
+  #021b31;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 6rem;
+  padding: 0rem;
+}
+
+.site-title {
+  font-size: 3rem;
+  color: white;
+}
+
+h1{
+  background-color: 
+  #021b31;
+  padding: 0rem;
+  color: white;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.nav li.active {
+  background-color: #2bb573;
+}
+
+.nav li:hover {
   background-color: #010f19;
 }
 
+.Title{
+  color: white;
+}
+
+.SubTitle{
+  color:white
+}

@@ -19,9 +19,9 @@ function App() {
 
 function Home() {
   return( 
-    <div>
+    <div className="Title">
       <h2>Home Page</h2>
-      <div>
+      <div className="SubTitle">
         <p>Hello</p>
       </div>
     </div>
