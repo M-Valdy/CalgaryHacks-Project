@@ -1,15 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+
 
 :root {
   --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 * {
+  margin:0;
+  padding:0;
   box-sizing: border-box;
 }
 
 body {
-  background-color: #f7f7f7;
+  background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,11 +31,22 @@ body {
 .container {
   margin: 30px auto;
   width: 350px;
+  margin-top: 10%;
+  border-radius: 8px;
+  border: 2px solid #9c88ff;
+  padding: 40px;
+}
+
+.container1 {
+  margin: 30px auto;
+  width: 350px;
+  margin-top: 40%;
 }
 
 h1 {
   letter-spacing: 1px;
   margin: 0;
+  color: #222222;
 }
 
 h3 {
@@ -38,6 +58,7 @@ h3 {
 h4 {
   margin: 0;
   text-transform: uppercase;
+  color: #00308F;
 }
 
 .inc-exp-container {
@@ -100,6 +121,23 @@ input[type='number'] {
   width: 100%;
 }
 
+.btn1 {
+  cursor: pointer;
+  background-color: #9c88ff;
+  box-shadow: var(--box-shadow);
+  color: #fff;
+  border: 0;
+  display: block;
+  font-size: 12px;
+  margin: 20px 0 30px;
+  padding: 10px;
+  width: 100%;
+
+}
+.para {
+  
+
+}
 .btn:focus,
 .delete-btn:focus {
   outline: 0;

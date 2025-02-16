@@ -1,0 +1,42 @@
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px, 10%;
+    background: transparent ;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index: 100;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    border: 1px;
+  
+}
+
+.logo {
+  font-size:32px;
+  color: #00308F;
+    font-weight: 500;
+    font-family: "Rubik", serif;
+    margin-left: 20px;
+    text-decoration:none;
+    margin-top: 20px;
+
+}
+
+.navbar a {
+    position: relative;
+    font-size: 16px ;
+    color: #00308F;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-right: 20px;
+    text-decoration:none;
+    font-family: "Rubik", serif;
+    margin-top: 40px;
+
+
+}
+
