@@ -5,20 +5,27 @@ function App() {
   return (
     <Router>
       <div>
-        <h1>Welcome to My Website</h1>  {/* h1 element added */}
+        <h1>Independent Students</h1>  {/* h1 element added */}
         <Navbar />  {/* Navbar component rendered */}
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/data" element={<Data />} />
         </Routes>
-        </div>
+      </div>
     </Router>
   );
 }
 
 function Home() {
-  return <h2>Home Page</h2>;
+  return( 
+    <div>
+      <h2 style={{colour: 'red'}}>Home Page</h2>
+      <div>
+        <p>Hello</p>
+      </div>
+    </div>
+  )
 }
 
 function About() {

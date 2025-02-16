@@ -3,7 +3,7 @@ export default function Navbar() {
     return (   
     <nav className="nav">
         <a  href="/" className="site-title">
-        Independent Students
+        Welcome to Independent Students Web Page
         </a>
     <ul>
         <li className="active">
